@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbar,
+.footer {
+  background-color: #535a6d;
+}

@@ -9,7 +9,7 @@ const Header = () => {
           </p>
         </div>
         <div className="right">
-          <ul className="flex flex-row text-[#D4E4F3] gap-5 font-semibold mt-12 text-lg">
+          <ul className="flex flex-row text-[#D4E4F3] gap-5 font-medium mt-12 text-lg">
             <li>About Us</li>
             <li>Accounting services</li>
             <li>Tax Servcies</li>

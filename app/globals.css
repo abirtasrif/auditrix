@@ -16,3 +16,46 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 0;
 }
+
+.paragraph {
+  font-size: 20px;
+  font-weight: 300;
+  color: #d4e4f3;
+  line-height: 2.25rem;
+}
+
+.title-text {
+  color: #99be20;
+  font-weight: 600;
+  font-size: 32px;
+  margin-top: 30px;
+}
+
+.serivces-title {
+  color: #99be20;
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.service-title {
+  color: #99be20;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.service-icon {
+  color: #ffffff;
+  font-size: 100px;
+}
+
+.bullet {
+  margin-left: 20px;
+  padding-left: 20px;
+  list-style-type: circle;
+}
+
+.bullet::marker {
+  content: "●";
+  color: #d4e4f3;
+}

@@ -31,7 +31,7 @@ const About = () => {
           data-aos-duration="1000"
         >
           <span className="text-[#99be20] text-5xl mr-2">Why</span>
-          accounted
+          auditrix
           <span className="text-[#99be20] text-6xl">.</span>
         </h1>
       </div>

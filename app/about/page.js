@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import { FaRegLightbulb, FaDollarSign } from "react-icons/fa";
 import { HiOutlineSpeakerphone } from "react-icons/hi";
@@ -140,7 +141,7 @@ const About = () => {
             </h3>
             <a
               href="#"
-              className="border-2 rounded-full px-14 py-2 text-white border-gray-400/50 hover:bg-[#99be20]  hover:text-black hover:border-[#99be20] duration-300"
+              className="border-2 rounded-full px-14 py-2 text-white border-gray-400/50 hover:bg-[#99be20] hover:text-black hover:border-[#99be20] duration-300"
             >
               Read More
             </a>

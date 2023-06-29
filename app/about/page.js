@@ -5,11 +5,25 @@ import { HiOutlineSpeakerphone } from "react-icons/hi";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Lenis from "@studio-freight/lenis";
 
 const About = () => {
+  const lenis = new Lenis({
+    duration: 1.5,
+    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+    direction: "vertical",
+    smooth: true,
+  });
   useEffect(() => {
     AOS.init();
   }, []);
+
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+
+  requestAnimationFrame(raf);
 
   return (
     <div className="about bg-black/95">

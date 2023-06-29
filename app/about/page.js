@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import { FaRegLightbulb, FaDollarSign } from "react-icons/fa";
 import { HiOutlineSpeakerphone } from "react-icons/hi";
